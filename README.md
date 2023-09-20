@@ -7,3 +7,6 @@ some changes
 
 git diff
 git diff --cached - для индексированных
+
+## Test git commit -a
+Автоматическое индексирование известных файлов при коммите
