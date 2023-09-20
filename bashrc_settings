@@ -1,0 +1,6 @@
+#Add git branch name to bash command line
+function git_branch{
+	git branch --show-current | sed 's/.*/ (&)/'
+}
+
+export PS1="${grn}\u@\h ${blu}\w\[\033[33m\]\$(git_branch)\[\033[00m\] $"
