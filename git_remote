@@ -1,0 +1,10 @@
+git remote -v # name : url
+git remote add name url
+git fetch # wo merge
+git pull # w merge
+git remote show name
+git remote rename fst snd
+git remote rm name
+
+
+
