@@ -1,0 +1,10 @@
+git checkout -b branch_name
+
+or
+
+git branch name
+git checkout name
+
+git merge branch_name # merge current with branch_name
+
+foo from new branch
